@@ -1,6 +1,6 @@
 PHONY: clean fclean re all
 
-FILENAMES = main.c
+FILENAMES = main.c ft_strlen.c word_functions.c
 NAME = ft_ssl_md5 
 
 SRCS	=$(addprefix srcs/, $(FILENAMES))

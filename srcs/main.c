@@ -8,7 +8,10 @@ int main(int argc, char **argv)
 		printf("Hi");
 		return (-1);
 	}
-	char *c = "pickle ric";
+	char *c = "Hello, world!";
+	for (size_t i=0;i<ft_strlen(c);i++){
+		printf("%x ", c[i]);
+	}
 	printf("%s",c);
 	return (0);
 }
